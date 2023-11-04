@@ -25,6 +25,8 @@
 
         .sidebar {
             flex: 1;
+            margin-left:80%;
+            background-color: #aaaeb2;
         }
 
         .float-left {
@@ -201,4 +203,11 @@
         
         .scroll-to-top-btn:hover {
             background-color: #0056b3;
+        
         }
+        .sidebar {
+            flex-basis: 300px; /* Width of the sidebar */
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        
